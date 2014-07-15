@@ -19,6 +19,16 @@
 		0E0B51F81975C13900046C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0B51E01975C13900046C0D /* UIKit.framework */; };
 		0E0B52001975C13900046C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B51FE1975C13900046C0D /* InfoPlist.strings */; };
 		0E0B52021975C13900046C0D /* trial_sixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B52011975C13900046C0D /* trial_sixTests.m */; };
+		0E0B520E1975C30100046C0D /* trial_sixDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B520C1975C30100046C0D /* trial_sixDatePickerViewController.m */; };
+		0E0B520F1975C30100046C0D /* trial_sixDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B520D1975C30100046C0D /* trial_sixDatePickerViewController.xib */; };
+		0E0B52131975C33800046C0D /* trial_sixSingleComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B52111975C33800046C0D /* trial_sixSingleComponentViewController.m */; };
+		0E0B52141975C33800046C0D /* trial_sixSingleComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B52121975C33800046C0D /* trial_sixSingleComponentViewController.xib */; };
+		0E0B521E1975C36F00046C0D /* trial_sixCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B521C1975C36F00046C0D /* trial_sixCustomPickerViewController.m */; };
+		0E0B521F1975C36F00046C0D /* trial_sixCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B521D1975C36F00046C0D /* trial_sixCustomPickerViewController.xib */; };
+		0E0B52231975C38900046C0D /* trial_sixDoubleComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B52211975C38900046C0D /* trial_sixDoubleComponentViewController.m */; };
+		0E0B52241975C38900046C0D /* trial_sixDoubleComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B52221975C38900046C0D /* trial_sixDoubleComponentViewController.xib */; };
+		0E0B52281975C39800046C0D /* trial_sixDependentComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B52261975C39800046C0D /* trial_sixDependentComponentViewController.m */; };
+		0E0B52291975C39800046C0D /* trial_sixDependentComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0B52271975C39800046C0D /* trial_sixDependentComponentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		0E0B51FD1975C13900046C0D /* trial_sixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "trial_sixTests-Info.plist"; sourceTree = "<group>"; };
 		0E0B51FF1975C13900046C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E0B52011975C13900046C0D /* trial_sixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trial_sixTests.m; sourceTree = "<group>"; };
+		0E0B520B1975C30100046C0D /* trial_sixDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_sixDatePickerViewController.h; sourceTree = "<group>"; };
+		0E0B520C1975C30100046C0D /* trial_sixDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_sixDatePickerViewController.m; sourceTree = "<group>"; };
+		0E0B520D1975C30100046C0D /* trial_sixDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_sixDatePickerViewController.xib; sourceTree = "<group>"; };
+		0E0B52101975C33800046C0D /* trial_sixSingleComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_sixSingleComponentViewController.h; sourceTree = "<group>"; };
+		0E0B52111975C33800046C0D /* trial_sixSingleComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_sixSingleComponentViewController.m; sourceTree = "<group>"; };
+		0E0B52121975C33800046C0D /* trial_sixSingleComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_sixSingleComponentViewController.xib; sourceTree = "<group>"; };
+		0E0B521B1975C36F00046C0D /* trial_sixCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_sixCustomPickerViewController.h; sourceTree = "<group>"; };
+		0E0B521C1975C36F00046C0D /* trial_sixCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_sixCustomPickerViewController.m; sourceTree = "<group>"; };
+		0E0B521D1975C36F00046C0D /* trial_sixCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_sixCustomPickerViewController.xib; sourceTree = "<group>"; };
+		0E0B52201975C38900046C0D /* trial_sixDoubleComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_sixDoubleComponentViewController.h; sourceTree = "<group>"; };
+		0E0B52211975C38900046C0D /* trial_sixDoubleComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_sixDoubleComponentViewController.m; sourceTree = "<group>"; };
+		0E0B52221975C38900046C0D /* trial_sixDoubleComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_sixDoubleComponentViewController.xib; sourceTree = "<group>"; };
+		0E0B52251975C39800046C0D /* trial_sixDependentComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trial_sixDependentComponentViewController.h; sourceTree = "<group>"; };
+		0E0B52261975C39800046C0D /* trial_sixDependentComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trial_sixDependentComponentViewController.m; sourceTree = "<group>"; };
+		0E0B52271975C39800046C0D /* trial_sixDependentComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trial_sixDependentComponentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +132,21 @@
 		0E0B51E21975C13900046C0D /* trial_six */ = {
 			isa = PBXGroup;
 			children = (
+				0E0B520B1975C30100046C0D /* trial_sixDatePickerViewController.h */,
+				0E0B520C1975C30100046C0D /* trial_sixDatePickerViewController.m */,
+				0E0B520D1975C30100046C0D /* trial_sixDatePickerViewController.xib */,
+				0E0B52101975C33800046C0D /* trial_sixSingleComponentViewController.h */,
+				0E0B52111975C33800046C0D /* trial_sixSingleComponentViewController.m */,
+				0E0B52121975C33800046C0D /* trial_sixSingleComponentViewController.xib */,
+				0E0B521B1975C36F00046C0D /* trial_sixCustomPickerViewController.h */,
+				0E0B52201975C38900046C0D /* trial_sixDoubleComponentViewController.h */,
+				0E0B52211975C38900046C0D /* trial_sixDoubleComponentViewController.m */,
+				0E0B52221975C38900046C0D /* trial_sixDoubleComponentViewController.xib */,
+				0E0B52251975C39800046C0D /* trial_sixDependentComponentViewController.h */,
+				0E0B52261975C39800046C0D /* trial_sixDependentComponentViewController.m */,
+				0E0B52271975C39800046C0D /* trial_sixDependentComponentViewController.xib */,
+				0E0B521C1975C36F00046C0D /* trial_sixCustomPickerViewController.m */,
+				0E0B521D1975C36F00046C0D /* trial_sixCustomPickerViewController.xib */,
 				0E0B51EB1975C13900046C0D /* trial_sixAppDelegate.h */,
 				0E0B51EC1975C13900046C0D /* trial_sixAppDelegate.m */,
 				0E0B51EE1975C13900046C0D /* Images.xcassets */,
@@ -220,8 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0B520F1975C30100046C0D /* trial_sixDatePickerViewController.xib in Resources */,
+				0E0B52291975C39800046C0D /* trial_sixDependentComponentViewController.xib in Resources */,
 				0E0B51E71975C13900046C0D /* InfoPlist.strings in Resources */,
+				0E0B52141975C33800046C0D /* trial_sixSingleComponentViewController.xib in Resources */,
+				0E0B52241975C38900046C0D /* trial_sixDoubleComponentViewController.xib in Resources */,
 				0E0B51EF1975C13900046C0D /* Images.xcassets in Resources */,
+				0E0B521F1975C36F00046C0D /* trial_sixCustomPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0B520E1975C30100046C0D /* trial_sixDatePickerViewController.m in Sources */,
+				0E0B521E1975C36F00046C0D /* trial_sixCustomPickerViewController.m in Sources */,
 				0E0B51ED1975C13900046C0D /* trial_sixAppDelegate.m in Sources */,
+				0E0B52231975C38900046C0D /* trial_sixDoubleComponentViewController.m in Sources */,
+				0E0B52131975C33800046C0D /* trial_sixSingleComponentViewController.m in Sources */,
+				0E0B52281975C39800046C0D /* trial_sixDependentComponentViewController.m in Sources */,
 				0E0B51E91975C13900046C0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
